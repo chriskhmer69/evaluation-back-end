@@ -1,0 +1,94 @@
+/* Reset some basic elements */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Navigation styles */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Section and form styles */
+section {
+    margin: 20px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input[type="text"],
+form textarea,
+form input[type="number"],
+form input[type="file"] {
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+form input[type="submit"] {
+    padding: 10px 15px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
+
+form input[type="submit"]:hover {
+    background-color: #444;
+}
+
+/* Product styles */
+.product {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.product h2 {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.product p {
+    margin-bottom: 10px;
+}
+
+.product .reserved {
+    color: red;
+    font-weight: bold;
+}
+
+.error {
+    border: 1px solid red;
+}
